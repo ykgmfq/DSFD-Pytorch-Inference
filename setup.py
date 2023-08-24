@@ -15,7 +15,7 @@ setuptools.setup(
     long_description="".join(open("README.md", "r").readlines()),
     long_description_content_type="text/markdown",
     url="https://github.com/hukkelas/DSFD-Pytorch-Inference",
-    python_requires='>=3.6',
+    python_requires=">=3.6",
     license="apache-2.0",
     classifiers=[
         "License :: OSI Approved :: Apache Software License",
@@ -24,5 +24,5 @@ setuptools.setup(
     install_requires=[
         "numpy",
     ],
-    packages=setuptools.find_packages()
+    packages=setuptools.find_packages(),
 )
